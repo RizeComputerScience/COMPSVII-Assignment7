@@ -57,3 +57,25 @@ let friendFavorites = [
 
 // 10. STRETCH: Find the longest food name and print:
 // "The longest food name in the list is ______ with ___ characters."
+
+// 1. Create arrays
+const fruits = ['apple', 'banana', 'orange'];
+const veggies = ['carrot', 'broccoli', 'spinach'];
+
+// 2. Loop through and log
+for (let fruit of fruits) {
+  console.log(fruit);
+}
+
+// 3. Function with parameter
+function favoriteFood(food) {
+  console.log(`My favorite food is ${food}!`);
+}
+favoriteFood('pizza');
+
+// 4. Conditional example
+if (fruits.length > veggies.length) {
+  console.log('More fruits than veggies!');
+} else {
+  console.log('More veggies than fruits!');
+}
